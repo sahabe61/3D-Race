@@ -1,48 +1,44 @@
-# 🏎️ 3D Race
+# 🏎️ Turbo Yarış 3D
 
-Modern tarayıcılarda çalışan, Three.js tabanlı, hız tutkunları için geliştirilmiş 3D arcade yarış oyunu! Tek kişilik bot yarışları, iki kişilik bölünmüş ekran (split-screen) desteği, drift modları ve farklı araç/harita seçenekleriyle eğlenceli bir deneyim sunar[cite: 1].
-
----
-
-## ✨ Özellikler
-
-* **Çoklu Oyun Modu:** İstersen tek başına botlarla yarış, istersen aynı ekranı ikiye bölerek (Split-Screen) arkadaşınla kapış[cite: 1].
-* **Farklı Araç Seçenekleri:** Şahin, Yıldırım, Drift, Tank, Roket ve daha birçok farklı sürüş dinamiklerine sahip araç[cite: 1].
-* **Çeşitli Haritalar & Atmosferler:** Çöl, Orman, Gece Şehri, Kar, Mars ve Sakura gibi farklı temalar[cite: 1].
-* **Modifikasyon Sistemi:** Puanlar veya geliştirmelerle arabanın hızını, ivmesini ve yol tutuşunu özelleştirme imkanı[cite: 1].
-* **Özel Modlar:** Özel Drift modu ve zorluk seviyeleri[cite: 1].
-* **Ses ve Müzik:** Web Audio API tabanlı dinamik ses efektleri ve arkaplan müzikleri[cite: 1].
+Tarayıcı üzerinde doğrudan çalışan, tek veya çok oyunculu oynanabilen 3 boyutlu bir arcade yarış ve drift oyunudur[span_0](start_span)[span_0](end_span). Farklı atmosferlere sahip pistler, çeşitli karakterlere sahip araçlar, araç modifikasyonu ve dokunmatik/klavye desteği ile hızlı ve keyifli yarışlar sunar[span_1](start_span)[span_1](end_span).
 
 ---
 
-## 🕹️ Nasıl Oynanır?
+## ✨ Öne Çıkan Özellikler
 
-Oyun hem klavye hem de mobil/dokunmatik cihazlar için uyumludur[cite: 1].
-
-* **1. Oyuncu (veya Tek Kişilik):**
-  * **Yön / Gaz / Fren:** `W`, `A`, `S`, `D` tuşları veya ok tuşları[cite: 1].
-  * **Nitro:** `Shift` veya `Boşluk` tuşu[cite: 1].
-* **2. Oyuncu (Bölünmüş Ekran):**
-  * **Yön / Gaz / Fren:** Ok tuşları[cite: 1].
-  * **Nitro:** `Enter` tuşu[cite: 1].
-* **Duraklatma:** `P` veya `Esc` tuşları[cite: 1].
-
----
-
-## 🚀 Oyunu Çalıştırma & GitHub'a Yükleme
-
-Bu oyunu kendi GitHub hesabın üzerinden internete yüklemek ve oynamak için:
-
-1. Kodları **`index.html`** dosyası olarak kaydet[cite: 1].
-2. GitHub üzerinde yeni bir Public (Herkese Açık) repository oluştur[cite: 1].
-3. `index.html` dosyasını bu repository'ye yükle[cite: 1].
-4. Repository ayarlarından **GitHub Pages** sekmesine git ve kaynağı `main` (veya `master`) olarak seçip kaydet[cite: 1].
-5. Verilen GitHub Pages bağlantısına tıklayarak oyunun tadını çıkar![cite: 1]
+* **Farklı Oyun Modları:**
+  * **Klasik Yarış:** Belirlenen tur sayısı boyunca rakiplerle kıyasıya mücadele edin ve rekor süreleri zorlayın[span_2](start_span)[span_2](end_span).
+  * **Drift Modu:** Kaygan zeminlerde ve kıvrımlı özel pistlerde süre bitene kadar en yüksek drift puanını toplamaya çalışın[span_3](start_span)[span_3](end_span).
+* **Çok Oyunculu Seçenekler:**
+  * **Tek Kişi:** Yapay zekâ botlara karşı yarışın (bot zorluğu ve bot sayısı ayarlanabilir)[span_4](start_span)[span_4](end_span).
+  * **İki Kişi:** Ekran ortadan ikiye bölünür; aynı klavye veya dokunmatik ekran üzerinden arkadaşınızla kapışın[span_5](start_span)[span_5](end_span).
+  * **Dört Kişi:** İkiye bölünmüş ekranda, gaza basarken doğru zamanlamayla ekstra ivme kazandıran mini oyun mekaniğiyle kalabalık ve hareketli yarışlar yapın[span_6](start_span)[span_6](end_span).
+* **Çeşitli Haritalar ve Atmosferler:** Çöl, Orman, Gece Şehri, Kar, Mars ve Sakura gibi farklı temalara ve görsel etkilere sahip pistlerde yarışın (Drift moduna özel pist seçenekleri de bulunur)[span_7](start_span)[span_7](end_span).
+* **8 Farklı Araç & Kişiselleştirme:** Şahin, Yıldırım, Drift, Tank, Roket, Dengeli, Jeep ve Kupa gibi farklı hız, ivme, yol tutuş ve arazi özelliklerine sahip araçlar arasından seçim yapın[span_8](start_span)[span_8](end_span). Araç rengini değiştirebilir ve puan dağıtarak aracınızı modifiye edebilirsiniz[span_9](start_span)[span_9](end_span).
+* **Pist Engelleri ve Yol Koşulları:** Açılıp kapatılabilen engeller sayesinde koni, varil, kasa, duvar, bozuk yol ve kaygan zemin gibi sürprizlerle karşılaşın[span_10](start_span)[span_10](end_span).
+* **Ses ve Görsel Ayarlar:** Arka plan müziği, ses efektleri ve motor sesi açılıp kapatılabilir; düşük/yüksek grafik seçeneği ve tam ekran desteği bulunur[span_11](start_span)[span_11](end_span).
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🎮 Nasıl Oynanır?
 
-* [HTML5 / CSS3](https://developer.mozilla.org/)
-* JavaScript (ES6+)
-* [Three.js (r128)](https://threejs.org/) - 3D Grafik Kütüphanesi[cite: 1]
+### Klavye Kontrolleri
+* **1. Oyuncu (ve Tek Kişilik Mod):**
+  * **Yönlendirme:** `W A S D` veya `Ok Tuşları` (tek kişilik modda)[span_12](start_span)[span_12](end_span)
+  * **Nitro:** `Shift (Sol)` veya `Boşluk (Space)`[span_13](start_span)[span_13](end_span)
+* **2. Oyuncu:**
+  * **Yönlendirme:** `Ok Tuşları`[span_14](start_span)[span_14](end_span)
+  * **Nitro:** `Enter` veya `Shift (Sağ)`[span_15](start_span)[span_15](end_span)
+* **3. ve 4. Oyuncular (Dört Kişilik Mod):**
+  * **3. Oyuncu:** `I K J L` (Nitro: `U`)[span_16](start_span)[span_16](end_span)
+  * **4. Oyuncu:** `Numpad 8 / 5 / 4 / 6` (Nitro: `Numpad 0`)[span_17](start_span)[span_17](end_span)
+* **Duraklatma:** `P` veya `Esc`[span_18](start_span)[span_18](end_span)
+
+### Dokunmatik Ekran
+Telefon ve tablet gibi dokunmatik cihazlarda oyuncu sayısına göre ekranda otomatik yön, gaz, fren ve nitro butonları görüntülenir[span_19](start_span)[span_19](end_span).
+
+---
+
+## 🚀 Çalıştırma
+
+Herhangi bir kurulum veya sunucu gerektirmez. `Turbo Yarış 3D (5).html` dosyasını modern bir web tarayıcısında açarak hemen oynamaya başlayabilirsiniz[span_20](start_span)[span_20](end_span).
